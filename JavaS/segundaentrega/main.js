@@ -23,6 +23,19 @@
     }
   };
 
+  let serviciosAdicionales = [
+    {
+      nombre: 'Prueba de maquillaje',
+      precio: 400,
+      disponibilidad: 'Consultar disponibilidad'
+    },
+    {
+      nombre: 'Maquillaje para fiestas de 15',
+      precio: 1200,
+      disponibilidad: 'Consultar disponibilidad'
+    }
+  ];
+
   // Función del menú.
   
   function menu() {
@@ -66,6 +79,10 @@
     for (let servicio in servicios) {
       mensaje += `- ${servicios[servicio].nombre}\n`;
     }
+    mensaje += '\nServicios adicionales:\n';
+    for (let servicio of serviciosAdicionales) {
+      mensaje += `- ${servicio.nombre}\n`;
+    }
     mostrarMensaje(mensaje);
   }
   
@@ -85,8 +102,14 @@
     for (let servicio in servicios) {
       mensaje += `- ${servicios[servicio].nombre}: $${servicios[servicio].precio}, disponibilidad: ${servicios[servicio].disponibilidad}\n`;
     }
+    mensaje += '\nPrecios y disponibilidad de servicios adicionales:\n';
+    for (let servicio of serviciosAdicionales) {
+      mensaje += `- ${servicio.nombre}: $${servicio.precio}, disponibilidad: ${servicio.disponibilidad}\n`;
+    }
     mostrarMensaje(mensaje);
   }
   
   // Llamar a la función "menu"
   menu();
+
+  
