@@ -68,11 +68,18 @@ const productos = [
     const total = carrito.reduce((sum, producto) => sum + producto.precio, 0);
   
     totalContainer.innerHTML = `<p>Total: $${total}</p>`;
+    localStorage.setItem('carrito', JSON.stringify(carrito));
   }
+
+  
   
   // Evento al cargar la página
 
   window.addEventListener('DOMContentLoaded', function() {
+  const carritoGuardado = localStorage.getItem('carrito');
+  if (carritoGuardado) {
+    carrito = JSON.parse(carritoGuardado);
+  }
     mostrarProductos();
     actualizarCarrito();
   });
