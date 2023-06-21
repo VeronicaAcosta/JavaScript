@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "nombre": "Labial",
+      "precio": 500,
+      "imagen": "https://cdn.shopify.com/s/files/1/0634/5457/6854/products/beauty-creations-cosmetics-pr-box-de-labios-seal-the-deal-nude_1024x1024.jpg?v=1650385138"
+    },
+    {
+      "id": 2,
+      "nombre": "Máscara de pestañas",
+      "precio": 950,
+      "imagen": "https://karinacosmeticos.com/mystore/item/1985/b/mascara-de-pestanas-beauty-creations"
+    },
+    {
+      "id": 3,
+      "nombre": "Sombra de ojos",
+      "precio": 1200,
+      "imagen": "https://tiendabeautyspace.cl/wp-content/uploads/2022/11/teaseweb1-scaled-1.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "Base de maquillaje",
+      "precio": 1500,
+      "imagen": "https://cdn.shopify.com/s/files/1/0290/2641/8767/products/image_476979cd-4f09-4380-a08b-d87a1c417e99_1024x1024.png?v=1601518384"
+    },
+    {
+      "id": 5,
+      "nombre": "Primer",
+      "precio": 800,
+      "imagen": "https://cdn.shopify.com/s/files/1/1406/2336/products/image_02d50b6a-657a-48b9-b56e-2c7473fc237b_1024x1024.jpg?v=1651543379"
+    },
+    {
+      "id": 6,
+      "nombre": "Delineador",
+      "precio": 700,
+      "imagen": "https://www.girlymaquillaje.com/wp-content/uploads/IG_PastelPlease-0023_1080x_94ebacba-b091-4705-a36e-b0d9ab4a4ea7_1024x1024.jpg"
+    }
+  ]
+  
